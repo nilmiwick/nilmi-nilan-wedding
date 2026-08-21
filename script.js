@@ -11,7 +11,7 @@ const WEDDING = {
   calendarTitle: "Nilmi & Nilan's Wedding",
   ceremonyLocation: "Holy Cross Church, Gampaha, Sri Lanka",
   receptionLocation: "Pabavee Regency, Balummahara, Sri Lanka",
-  whatsappNumber: "94770000000"
+  whatsappNumber: "94704110431"
 };
 
 // Slow scroll-reveal animation with no external animation library.
