@@ -1913,13 +1913,13 @@ button,
   }
 
   .orchid-accent {
-    right: -2rem;
+    right: -3rem;
     left: auto;
 
     top: 1.5rem;
 
     width:
-      min(60vw, 250px);
+      min(90vw, 450px);
 
     transform: none;
 
