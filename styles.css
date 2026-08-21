@@ -1867,6 +1867,16 @@ button,
     orchidFloat 8s ease-in-out infinite;
 }
 
+@keyframes orchidFloatMobile {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-8px) rotate(1.5deg);
+  }
+}
+
 
 /* =========================================================
    TABLET ORCHID
@@ -1915,16 +1925,16 @@ button,
   .orchid-accent {
     right: -3rem;
     left: auto;
-
     top: 1.5rem;
 
-    width:
-      min(90vw, 450px);
+    width: min(70vw, 290px);
 
-    transform: none;
-
+    transform: translateY(-5px) rotate(1deg);
     opacity: .28;
+
+    animation: orchidFloatMobile 9s ease-in-out infinite;
   }
+}
 
   .theme-note {
     margin-top: 1rem;
